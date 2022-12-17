@@ -1,0 +1,114 @@
+.signbtn:hover::after{
+    transform: rotate(18deg) scale(4);
+    opacity: 0;
+    transition: 0.5s;
+}
+.menu>ul>li>a:hover{
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) ,
+     inset 1px 1px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+.menu>ul>li>a:hover::after{
+    transform: translateX(100%);
+    transition: 0.3s;
+}
+.container-1>button:last-of-type:hover{
+    background-image: linear-gradient(117deg,#c531ff , #ac0eeb ,#9907d3,#7707d3);
+    box-shadow:inset 1px 1px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.button:hover::after{
+    transform: translateX(101%);
+    transition: 0.3s;
+    opacity: 0;
+}
+.advantage>.row>section>div>.img:hover>figure>img{
+    transform: scale(1.2);
+}
+.advantage>.row>section>div>.img:hover>.text-1{
+    bottom: 0;
+}
+.container-3>.middle>a:hover{
+    color: #7707d3;
+}
+.container-3>.view:hover::before{
+    left: 15%;
+    box-shadow: 1px 1px 5px #1bb5c965;
+}
+.gallery-2>article:hover>figure>img{
+    transform: scale(1.2);
+}
+.works>.row>section:hover{
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.473);
+}
+.gallery-3>div>figure:hover>.box{
+    clip-path:circle(100% at 50% 50%);
+}
+.gallery-3>div>figure>.box>a:hover{
+    color: #7707d3;
+}
+.question>.row>.frequently-box>article:hover{
+    height: 7.5em;
+    cursor: pointer;
+}
+.question>.row>.frequently-box>article:hover i{
+    transform: rotateX(180deg);
+}
+.footer>.row>ul>li>a:hover::after{
+    width: 100%;
+}
+.text-box>i>*:hover{
+    fill: rgb(255, 183, 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.pic-gallery>span:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #7707d3;
+}
+.footer>.row>.virtualy>div>i:hover{
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+}
+.circle-1:hover{
+    width: 650px;
+    height: 650px;
+    bottom: -319px;
+}
+@keyframes turn {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.nothing{
+    background-color: rgb(45 30 51);
+    background-color: hsl(283, 26%, 16%);
+    
+    background-color: rgb(41 27 46);
+    background-color: hsl(284, 26%, 14%);
+
+    background-color: rgb(29 27 44);
+    background-color: #1d1b2c;
+
+    background-color: rgb(42 31 69);
+    background-color: rgb(32 47 71);
+    background-color: #202f47;
+    background-color: hsl(217, 38%, 20%);
+
+    background-color: rgb(68 51 92);
+    background-color: rgb(53 47 83);
+    background-color: rgb(71 51 91);
+    background-color: hsl(283, 65%, 43%);
+    
+    background-color: rgb(64 60 113);
+    
+}
